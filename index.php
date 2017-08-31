@@ -16,7 +16,7 @@ get_header(); ?>
 
 	<div id="primary" class="content-area col-md-8 col-sm-12">
 		<main id="main" class="site-main">
-		<?php if(is_home() or is_front_page()){
+		<?php if((is_home() or is_front_page()) and !is_paged()){
 			get_template_part( 'template-parts/home', 'slider' );
 			} ?>
 
@@ -50,7 +50,7 @@ get_header(); ?>
 			endwhile;
 			echo '</div>';
 
-			the_posts_navigation();
+			get_template_part( 'template-parts/page', 'navigation' );
 
 		else :
 

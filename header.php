@@ -22,7 +22,7 @@
 
 <body class="bulls">
 <div id="page" class="site">
-	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'pk' ); ?></a>
+	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Goto Top', 'pk' ); ?></a>
 
 	<header id="masthead" class="site-header">
 		<div class="site-branding container">
@@ -44,14 +44,11 @@
 					
 				?>
 				<ul class="main-menu clearfix">
-		            <li class="nav-index current"><a href="/bulls">首页</a></li>
-		            <li class="nav-videos"><a href="/bulls/videos">视频</a></li>
-		            <li class="nav-news"><a href="/bulls/news">新闻</a></li>
-		            <li class="nav-players"><a href="/teams/roster/#!/bulls">球员</a></li>
-		            <li class="nav-schedule"><a href="/teams/schedule/#!/bulls">赛程</a></li>
-		            <li class="nav-statics"><a href="/teams/leaders/#!/bulls">统计</a></li>
-		            <li class="nav-photos"><a href="/bulls/photos">图片</a></li>
-		            <li class="nav-mall mall_bulls"><a href="http://www.nbastore.cn/ShopByTeam-Eastern-ChicagoBulls/category.htm" class="team-mall" target="_blank">商城</a></li>
+		            <li class="nav-index current"><a href="<?php echo site_url('/'); ?>">首页</a></li>
+		            <li class="nav-videos"><a href="<?php echo site_url('/tag/training'); ?>">训练</a></li>
+		            <li class="nav-videos"><a href="<?php echo site_url('/tag/info'); ?>">资讯</a></li>
+		            <li class="nav-news"><a href="<?php echo site_url('/tag/equipment'); ?>">装备</a></li>
+					<li class="swither-icon"><a title="切换主题">切换主题</a></li>
 		        </ul>
 
 				<?php } ?>

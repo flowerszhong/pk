@@ -193,6 +193,18 @@ function post_views($before = '(浏览 ', $after = ' 次)', $echo = 1){
 
 
 
+// Apply filter
+add_filter( 'get_avatar' , 'my_custom_avatar' , 1 , 5 );
+
+function my_custom_avatar( $avatar, $id_or_email, $size, $default, $alt ) {
+	$num = rand(0,63);
+	if($num<10){
+		$num = '0' .$num;
+	}
+	$avatar = site_url(). '/wp-content/themes/pk/img/players/avatar-'.$num.'.jpg';
+	$avatar = "<img alt='{$alt}' src='{$avatar}' class='avatar avatar-{$size} photo' height='44' width='60' />";
+    return $avatar;
+}
 
 require get_template_directory() . '/inc/functions.php';
 require get_template_directory() . '/inc/widgets/abstract-widget.php';

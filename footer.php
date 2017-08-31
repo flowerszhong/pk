@@ -40,12 +40,15 @@
 
 				<div class="fmenu col-md-2 col-sm-4">
 					<h4 class="fmenu-title">
-						关于
+						资料
 					</h4>
 
 					<ul>
-						<li>NBA Store</li>
-						<li>NBA Store</li>
+						<li><a href="http://china.nba.com/rulebook/">犯规手册</a></li>
+						<li><a href="http://china.nba.com/statistics/">球员数据</a></li>
+						<li><a href="http://china.nba.com/statistics/teamstats/">球队数据</a></li>
+						<li><a href="http://china.nba.com/statistics/advancedteamstats/">高级球队数据</a></li>
+						<li><a href="http://china.nba.com/statistics/leagueleaders/">联盟数据王</a></li>
 					</ul>
 				</div>
 				<div class="fmenu col-md-2 col-sm-6">
@@ -72,7 +75,9 @@
 			</div>
 
 			<div id="footer-copyright" class="footer-copyright">
-				xxx
+				<p><em>©</em>2017年著作权 NBA17PK.com 所有权保留。</p>
+				<p>有任何的建议和意见，都欢迎联络我们：services@nba17pk.com</p>
+				<p>合作事宜，敬请联系:biz@nba17pk.com</p>
 			</div>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->

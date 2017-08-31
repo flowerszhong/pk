@@ -20,7 +20,10 @@
 
 		if ( 'post' === get_post_type() ) : ?>
 		<div class="entry-meta">
-			<?php pk_posted_on(); ?>
+			<?php the_time( 'Y-d-m H:i:s' ); ?>  |
+			<?php the_tags( '', ' / ', '' ) ?>  |
+			<a href="#comments"><?php echo comments_number( '暂无评论', '1条评论' ); ?></a> | 
+			<?php post_views('浏览','次',1);?>
 		</div><!-- .entry-meta -->
 		<?php
 		endif; ?>
@@ -49,6 +52,6 @@
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">
-		<?php pk_entry_footer(); ?>
+		
 	</footer><!-- .entry-footer -->
 </article><!-- #post-<?php the_ID(); ?> -->
