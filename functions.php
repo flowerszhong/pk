@@ -161,6 +161,37 @@ function move_jquery_into_footer( $wp_scripts ) {
 
 
 
+if(!function_exists('record_visitors')){
+    function record_visitors(){
+        if (is_singular())
+        {
+          global $post;
+          $post_ID = $post->ID;
+          if($post_ID)
+          {
+              $post_views = (int)get_post_meta($post_ID, 'views', true);
+              if(!update_post_meta($post_ID, 'views', ($post_views+1)))
+              {
+                add_post_meta($post_ID, 'views', 1, true);
+              }
+          }
+        }
+    }
+}
+
+add_action('wp_head', 'record_visitors');
+
+
+function post_views($before = '(浏览 ', $after = ' 次)', $echo = 1){
+      global $post;
+      $post_ID = $post->ID;
+      $views = (int)get_post_meta($post_ID, 'views', true);
+      if ($echo) echo $before, number_format($views), $after;
+      else return $views;
+}
+
+
+
 
 
 require get_template_directory() . '/inc/functions.php';
@@ -168,6 +199,7 @@ require get_template_directory() . '/inc/widgets/abstract-widget.php';
 require get_template_directory() . '/inc/widgets/posts-widget.php';
 require get_template_directory() . '/inc/widgets/media-widget.php';
 require get_template_directory() . '/inc/widgets/random-widget.php';
+require get_template_directory() . '/inc/widgets/grid-widget.php';
 
 
 /**
