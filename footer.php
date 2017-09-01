@@ -29,12 +29,14 @@
 
 				<div class="fmenu col-md-2 col-sm-4">
 					<h4 class="fmenu-title">
-						关于
+						篮球大数据
 					</h4>
 
 					<ul>
-						<li>NBA Store</li>
-						<li>NBA Store</li>
+						<li><a href="http://china.nba.com/statistics/" rel="noopener">球员数据</a></li>
+						<li><a href="http://china.nba.com/statistics/teamstats/" rel="noopener">球队数据</a></li>
+						<li><a href="http://china.nba.com/statistics/advancedteamstats/" rel="noopener">高级球队数据</a></li>
+						<li><a href="http://china.nba.com/statistics/leagueleaders/" rel="noopener">联盟数据王</a></li>
 					</ul>
 				</div>
 
@@ -44,11 +46,9 @@
 					</h4>
 
 					<ul>
-						<li><a href="http://china.nba.com/rulebook/">犯规手册</a></li>
-						<li><a href="http://china.nba.com/statistics/">球员数据</a></li>
-						<li><a href="http://china.nba.com/statistics/teamstats/">球队数据</a></li>
-						<li><a href="http://china.nba.com/statistics/advancedteamstats/">高级球队数据</a></li>
-						<li><a href="http://china.nba.com/statistics/leagueleaders/">联盟数据王</a></li>
+						<li><a href="https://baike.baidu.com/item/%E7%AF%AE%E7%90%83%E8%A7%84%E5%88%99" rel="noopener">篮球规则</a></li>
+						<li><a href="http://china.nba.com/rulebook/" rel="noopener">犯规手册</a></li>
+						
 					</ul>
 				</div>
 				<div class="fmenu col-md-2 col-sm-6">
@@ -57,9 +57,9 @@
 					</h4>
 
 					<ul>
-						<li><a href="http://china.nba.com/topics/history.htm" title="编年史">编年史</a></li>
-						<li><a href="http://china.nba.com/topics/50players.htm" title="50大球星">50大球星</a></li>
-						<li><a href="http://china.nba.com/topics/faq/index.htm" title="NBA知识Q&A">NBA知识Q&A</a></li>
+						<li><a href="http://china.nba.com/topics/history.htm" rel="noopener" title="编年史">编年史</a></li>
+						<li><a href="http://china.nba.com/topics/50players.htm" rel="noopener" title="50大球星">50大球星</a></li>
+						<li><a href="http://china.nba.com/topics/faq/index.htm" rel="noopener" title="NBA知识Q&A">NBA知识Q&A</a></li>
 					</ul>
 				</div>
 				<div class="fmenu col-md-4 col-sm-6">
@@ -81,7 +81,9 @@
 			</div>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
+	
 </div><!-- #page -->
+
 
 <?php wp_footer(); ?>
 

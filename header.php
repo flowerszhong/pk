@@ -48,11 +48,13 @@
 		            <li class="nav-videos"><a href="<?php echo site_url('/tag/training'); ?>">训练</a></li>
 		            <li class="nav-videos"><a href="<?php echo site_url('/tag/info'); ?>">资讯</a></li>
 		            <li class="nav-news"><a href="<?php echo site_url('/tag/equipment'); ?>">装备</a></li>
-					<li class="swither-icon"><a title="切换主题">切换主题</a></li>
+					<li class="swither-icon" id="swither-icon"><a title="切换主题">切换主题</a></li>
 		        </ul>
 
 				<?php } ?>
 			</div>
+
+			<?php get_template_part( 'template-parts/teamlogos'); ?>
 			
 		</nav><!-- #site-navigation -->
 	</header><!-- #masthead -->

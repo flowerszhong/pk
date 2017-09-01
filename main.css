@@ -23,7 +23,32 @@
 }
 
 .bulls .site{
-    background: #cd1141 url(img/bulls-bg.jpg) top center no-repeat;
+    background: #cd1141 url(img/bulls-bg.jpg) center 200px no-repeat;
+}
+
+
+.lakers .site-header{
+    background: #441471;
+}
+
+.lakers .main-navigation{
+    background: #552582;
+}
+
+.lakers .main-menu .current{
+    background: #652A9C;;
+}
+
+.lakers .site{   
+
+    background: #562581 url(img/lakers-bg.jpg) center 200px no-repeat;
+}
+
+
+
+
+.site{
+    position: relative;
 }
 
 
@@ -46,6 +71,7 @@
     height: 60px;
     line-height: 60px;
     background-color: #860038;
+    position: relative;
 }
 
 
@@ -217,6 +243,8 @@
 
 .post-excerpt{
     margin-left: 160px;
+    max-height: 110px;
+    overflow: hidden;
 }
 
 .entry-footer{
@@ -555,12 +583,237 @@ textarea#comment{
 }
 
 
+/* theme switcher */
+
 li.swither-icon{
     float:right;
     width:70px;
     height: 60px;
     background: url(img/theme-icon.png) 50% 50% no-repeat;
+    cursor: pointer;
+}
+
+li.swither-icon:hover{
+    background: url(img/theme-icon.png) 50% 52% no-repeat;
 }
 
 
 
+.nav-team {
+    position: absolute;
+    top:60px;
+    left: 0;
+    right:0;
+    border: 2px solid #002f50;
+    background: #fff;
+    z-index: 999;
+    display: none;
+}
+
+.east-team {
+    /* border-left: 2px solid #002f50; */
+    float: left;
+    list-style:none;
+}
+
+.west-team {
+    /* border-right: 2px solid #002f50; */
+    float: left;
+    list-style:none;
+}
+
+.east-team .team-title {
+    border-right: 1px solid #072840
+}
+
+.west-team .team-title {
+    border-left: 1px solid #072840
+}
+
+.east-team li {
+    border-right: 1px solid #e5e5e5
+}
+
+.west-team li {
+    border-left: 1px solid #e5e5e5
+}
+
+li.gray {
+    background: #f5f5f5
+}
+
+.team-title {
+    height: 50px;
+    line-height: 50px;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    background: #002f50
+}
+
+.team-area {
+    height: 40px
+}
+
+.team-area span {
+    width: 33%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    text-align: center;
+    float: left
+}
+
+.team-list {
+    height: 70px
+}
+
+.team-list a:hover {
+    background-color: #e5e5e5
+}
+
+.team-list a {
+    padding-left: 101px;
+    width: 33%;
+    height: 70px;
+    line-height: 70px;
+    color: #2866b6;
+    font-size: 14px;
+    background: url(img/homepageteamlogos.png) no-repeat;
+    float: left;
+}
+
+@media(max-width:768px){
+    .team-list a {
+        text-indent: -2000em;
+    }
+
+    .nav-team .team-list a{
+        background-position-x: -10px!important;
+        padding-left: 20px;
+    }
+    .team-area span{
+        font-size: 11px;
+        overflow: hidden;
+    }
+}
+
+.team-list a.label-hornets {
+    background-position: 25px -922px
+}
+
+.team-list a.label-cavaliers {
+    background-position: 28px -492px
+}
+
+.team-list a.label-raptors {
+    background-position: 26px -330px
+}
+
+.team-list a.label-hawks {
+    background-position: 27px -839px
+}
+
+.team-list a.label-bulls {
+    background-position: 31px -418px
+}
+
+.team-list a.label-knicks {
+    background-position: 27px -167px
+}
+
+.team-list a.label-wizards {
+    background-position: 29px -1170px
+}
+
+.team-list a.label-pistons {
+    background-position: 27px -572px
+}
+
+.team-list a.label-celtics {
+    background-position: 28px -8px
+}
+
+.team-list a.label-magic {
+    background-position: 26px -1084px
+}
+
+.team-list a.label-pacers {
+    background-position: 27px -651px
+}
+
+.team-list a.label-nets {
+    background-position: 28px -93px
+}
+
+.team-list a.label-heat {
+    background-position: 27px -1006px
+}
+
+.team-list a.label-bucks {
+    background-position: 29px -740px
+}
+
+.team-list a.label-sixers {
+    background-position: 29px -248px
+}
+
+.team-list a.label-warriors {
+    background-position: 28px -1667px
+}
+
+.team-list a.label-jazz {
+    background-position: 28px -1579px
+}
+
+.team-list a.label-spurs {
+    background-position: 28px -2461px
+}
+
+.team-list a.label-clippers {
+    background-position: 26px -1756px
+}
+
+.team-list a.label-thunder {
+    background-position: 28px -1415px
+}
+
+.team-list a.label-rockets {
+    background-position: 27px -2213px
+}
+
+.team-list a.label-kings {
+    background-position: 29px -2032px
+}
+
+.team-list a.label-blazers {
+    background-position: 28px -1499px
+}
+
+.team-list a.label-grizzlies {
+    background-position: 28px -2292px
+}
+
+.team-list a.label-lakers {
+    background-position: 28px -1847px
+}
+
+.team-list a.label-nuggets {
+    background-position: 27px -1251px
+}
+
+.team-list a.label-pelicans {
+    background-position: 27px -2373px
+}
+
+.team-list a.label-suns {
+    background-position: 29px -1936px
+}
+
+.team-list a.label-timberwolves {
+    background-position: 26px -1330px
+}
+
+.team-list a.label-mavericks {
+    background-position: 28px -2122px
+}

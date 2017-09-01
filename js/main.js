@@ -12,6 +12,22 @@
 		});
 	}
 
+
+	$('#swither-icon').on('click',function(){
+		$('.nav-team').toggle();
+	});
+
+
+	$('.nav-team').on('click','a',function(e){
+		e.preventDefault();
+
+		var classname = this.className;
+		classname = classname.split('-')[1];
+
+		$('body').removeClass().addClass('lakers');
+		$('.nav-team').hide();
+	});
+
 	
 
 })(jQuery);
