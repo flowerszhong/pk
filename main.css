@@ -23,7 +23,7 @@
 }
 
 .bulls .site{
-    background: #cd1141 url(img/bulls-bg.jpg) center 200px no-repeat;
+    background: #cd1141 url(img/teams/bulls-bg.jpg) center 200px no-repeat;
 }
 
 
@@ -41,7 +41,523 @@
 
 .lakers .site{   
 
-    background: #562581 url(img/lakers-bg.jpg) center 200px no-repeat;
+    background: #562581 url(img/teams/lakers-bg.jpg) center 200px no-repeat;
+}
+
+
+.suns .site-header{
+    background: #B3430D;
+}
+
+.suns .main-navigation{
+    background: #CE4E10;
+}
+
+.suns .main-menu .current{
+    background: #F1590F;;
+}
+
+.suns .site{   
+    background: #e45e1f  url(img/teams/suns-bg.jpg) center 200px no-repeat;
+}
+
+
+.hornets .site-header{
+    background: #017c95;
+}
+
+.hornets .main-navigation{
+    background: #008ca8;
+}
+
+.hornets .main-menu .current{
+    background:#02a1c1;;
+}
+
+.hornets .site{   
+    background: #008ca8   url(img/teams/hornets-bg.jpg) center 200px no-repeat;
+}
+
+
+.hawks .site-header{
+    background: #cc2428;
+}
+
+.hawks .main-navigation{
+    background: #df262b;
+}
+
+.hawks .main-menu .current{
+    background:#ff353a;
+}
+
+.hawks .site{   
+    background: #e13a3e   url(img/teams/hawks-bg.jpg) center 200px no-repeat;
+}
+
+
+.wizards .site-header{
+    background: #023064;
+}
+
+.wizards .main-navigation{
+    background: #003878;
+}
+
+.wizards .main-menu .current{
+    background:#014899;
+}
+
+.wizards .site{   
+    background: #002c5d   url(img/teams/wizards-bg.jpg) center 200px no-repeat;
+}
+
+
+.magic .site-header{
+    background: #0169a6;
+}
+
+.magic .main-navigation{
+    background: #0175b8;
+}
+
+.magic .main-menu .current{
+    background:#0087d5;
+}
+
+.magic .site{   
+    background: #007ec5 url(img/teams/magic-bg.jpg) center 200px no-repeat;
+}
+
+
+.heat .site-header{
+    background: #8e002b;
+}
+
+.heat .main-navigation{
+    background: #a40333;
+}
+
+.heat .main-menu .current{
+    background:#c1063e;
+}
+
+.heat .site{   
+    background: #98002e url(img/teams/heat-bg.jpg) center 200px no-repeat;
+}
+
+
+.cavaliers .site-header{
+    background: #720130;
+}
+
+.cavaliers .main-navigation{
+    background: #860038;
+}
+
+.cavaliers .main-menu .current{
+    background:#a50347;
+}
+
+.cavaliers .site{   
+    background: #850039 url(img/teams/cavaliers-bg.jpg) center 200px no-repeat;
+}
+
+
+
+.pistons .site-header{
+    background: #c10b38;
+}
+
+.pistons .main-navigation{
+    background: #e41447;
+}
+
+.pistons .main-menu .current{
+    background:#f8285b;
+}
+
+.pistons .site{   
+    background: #ec174d url(img/teams/pistons-bg.jpg) center 200px no-repeat;
+}
+
+
+
+.pacers .site-header{
+    background: #002d62;
+}
+
+.pacers .main-navigation{
+    background: #053c7c;
+}
+
+.pacers .main-menu .current{
+    background:#084b98;
+}
+
+.pacers .site{   
+    background: #002e62 url(img/teams/pacers-bg.jpg) center 200px no-repeat;
+}
+
+
+
+.bucks .site-header{
+    background: #013c18;
+}
+
+.bucks .main-navigation{
+    background: #00471b;
+}
+
+.bucks .main-menu .current{
+    background:#076e2e;
+}
+
+.bucks .site{   
+    background: #02471b url(img/teams/bucks-bg.jpg) center 200px no-repeat;
+}
+
+
+
+.raptors .site-header{
+    background: #740b27;
+}
+
+.raptors .main-navigation{
+    background: #aa123b;
+}
+
+.raptors .main-menu .current{
+    background:#d31145;
+}
+
+.raptors .site{   
+    background: #ce1040 url(img/teams/raptors-bg.jpg) center 200px no-repeat;
+}
+
+
+
+.knicks .site-header{
+    background: #df7318;
+}
+
+.knicks .main-navigation{
+    background: #f2862c;
+}
+
+.knicks .main-menu .current{
+    background:#ff9c49;
+}
+
+.knicks .site{   
+    background: #f58426 url(img/teams/knicks-bg.jpg) center 200px no-repeat;
+}
+
+
+
+.celtics .site-header{
+    background: #06683c;
+}
+
+.celtics .main-navigation{
+    background: #008348;
+}
+
+.celtics .main-menu .current{
+    background:#0a9b5a;
+}
+
+.celtics .site{   
+    background: #008348 url(img/teams/celtics-bg.jpg) center 200px no-repeat;
+}
+
+
+
+.nets .site-header{
+    background: #0f0f0f;
+}
+
+.nets .main-navigation{
+    background: #1e1e1e;
+}
+
+.nets .main-menu .current{
+    background:#373737;
+}
+
+.nets .site{   
+    background: #000 url(img/teams/nets-bg.jpg) center 200px no-repeat;
+}
+
+
+
+.sixers .site-header{
+    background: #af0932;
+}
+
+.sixers .main-navigation{
+    background: #c70b3a;
+}
+
+.sixers .main-menu .current{
+    background:#ef1c51;
+}
+
+.sixers .site{   
+    background: #ee154c url(img/teams/76ers-bg.jpg) center 200px no-repeat;
+}
+
+
+
+
+.warriors .site-header{
+    background: #BD8204;
+}
+
+.warriors .main-navigation{
+    background: #D29616;
+}
+
+.warriors .main-menu .current{
+    background:#FDB927;
+}
+
+.warriors .site{   
+    background: #fdb926 url(img/teams/warriors-bg.jpg) center 200px no-repeat;
+}
+
+
+
+.clippers .site-header{
+    background: #025996;
+}
+
+.clippers .main-navigation{
+    background: #006BB6;
+}
+
+.clippers .main-menu .current{
+    background:#037FD6;
+}
+
+.clippers .site{   
+    background: #006cb5 url(img/teams/clippers-bg.jpg) center 200px no-repeat;
+}
+
+
+
+.kings .site-header{
+    background: #65369C;
+}
+
+.kings .main-navigation{
+    background: #7241AC;
+}
+
+.kings .main-menu .current{
+    background:#885AC0;
+}
+
+.kings .site{   
+    background: #724c9f url(img/teams/kings-bg.jpg) center 200px no-repeat;
+}
+
+
+
+.jazz .site-header{
+    background: #002B5C;
+}
+
+.jazz .main-navigation{
+    background: #003775;
+}
+
+.jazz .main-menu .current{
+    background:#004490;
+}
+
+.jazz .site{   
+    background: #002c5d url(img/teams/jazz-bg.jpg) center 200px no-repeat;
+}
+
+
+
+
+.thunder .site-header{
+    background: #00649c;
+}
+
+.thunder .main-navigation{
+    background: #0371ae;;
+}
+
+.thunder .main-menu .current{
+    background:#0083cc;
+}
+
+.thunder .site{   
+    background: #007ec3 url(img/teams/thunder-bg.jpg) center 200px no-repeat;
+}
+
+
+
+.blazers .site-header{
+    background: #9d1b1f;
+}
+
+.blazers .main-navigation{
+    background: #ba262a;;
+}
+
+.blazers .main-menu .current{
+    background:#e1383d;
+}
+
+.blazers .site{   
+    background: #e03a3e url(img/teams/blazers-bg.jpg) center 200px no-repeat;
+}
+
+
+
+.nuggets .site-header{
+    background: #be8407;
+}
+
+.nuggets .main-navigation{
+    background: #d89609;
+}
+
+.nuggets .main-menu .current{
+    background:#f6b220;
+}
+
+.nuggets .site{   
+    background: #fdb926 url(img/teams/nuggets-bg.jpg) center 200px no-repeat;
+}
+
+
+
+.timberwolves .site-header{
+    background: #04202d;
+}
+
+.timberwolves .main-navigation{
+    background: #012a3e;
+}
+
+.timberwolves .main-menu .current{
+    background:#023a56;
+}
+
+.timberwolves .site{   
+    background: #061a23 url(img/teams/timber-wolves-bg.jpg) center 200px no-repeat;
+}
+
+
+
+.timberwolves .site-header{
+    background: #04202d;
+}
+
+.timberwolves .main-navigation{
+    background: #012a3e;
+}
+
+.timberwolves .main-menu .current{
+    background:#023a56;
+}
+
+.timberwolves .site{   
+    background: #061a23 url(img/teams/timber-wolves-bg.jpg) center 200px no-repeat;
+}
+
+
+.spurs .site-header{
+    background: #031016;
+}
+
+.spurs .main-navigation{
+    background: #031924;
+}
+
+.spurs .main-menu .current{
+    background:#052535;
+}
+
+.spurs .site{   
+    background: #030b0e url(img/teams/spurs-bg.jpg) center 200px no-repeat;
+}
+
+
+
+.rockets .site-header{
+    background: #740b27;
+}
+
+.rockets .main-navigation{
+    background: #aa123b;
+}
+
+.rockets .main-menu .current{
+    background:#d31145;
+}
+
+.rockets .site{   
+    background: #cf1141 url(img/teams/rockets-bg.jpg) center 200px no-repeat;
+}
+
+
+
+.grizzlies .site-header{
+    background: #00235F;
+}
+
+.grizzlies .main-navigation{
+    background: #053382;
+}
+
+.grizzlies .main-menu .current{
+    background:#0540A4;
+}
+
+.grizzlies .site{   
+    background: #00225f url(img/teams/grizzlies-bg.jpg) center 200px no-repeat;
+}
+
+
+
+.pelicans .site-header{
+    background: #002B5B;
+}
+
+.pelicans .main-navigation{
+    background: #013671;
+}
+
+.pelicans .main-menu .current{
+    background:#03438A;
+}
+
+.pelicans .site{   
+    background: #002c5d url(img/teams/pelicans-bg.jpg) center 200px no-repeat;
+}
+
+
+
+.mavericks .site-header{
+    background: #065F9E;
+}
+
+.mavericks .main-navigation{
+    background: #026AB3;
+}
+
+.mavericks .main-menu .current{
+    background:#0278CB;
+}
+
+.mavericks .site{   
+    background: #006cb5 url(img/teams/mavericks-bg.jpg) center 200px no-repeat;
 }
 
 
@@ -63,7 +579,7 @@
     position: fixed;
     z-index: 9999;
     right:20px;
-    bottom: 20px;
+    bottom: 10px;
 }
 
 
@@ -265,6 +781,8 @@
 
 .main-menu{
     line-height: 60px;
+    height: 60px;
+    overflow: hidden;
 }
 
 .main-menu li{
@@ -282,20 +800,7 @@
 
 
 
-.main-menu li.swither-icon{
-    float:right;
-    width:40px;
-    height: 60px;
-    background: url(img/theme-icon.png) 50% 50% no-repeat;
-}
 
-.swither-icon a{
-    display: block;
-    width:100%;
-    height: 50px;
-    text-indent: 1000px;
-    overflow: hidden;
-}
 
 
 
@@ -597,6 +1102,15 @@ li.swither-icon:hover{
     background: url(img/theme-icon.png) 50% 52% no-repeat;
 }
 
+
+
+.swither-icon a{
+    display: block;
+    width:100%;
+    height: 50px;
+    text-indent: 1000px;
+    overflow: hidden;
+}
 
 
 .nav-team {

@@ -20,7 +20,7 @@
 	<?php wp_head(); ?>
 </head>
 
-<body class="bulls">
+<body class="celtics">
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Goto Top', 'pk' ); ?></a>
 
