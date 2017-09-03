@@ -29,6 +29,12 @@
 			<?php
 			the_custom_logo();
 			?>
+
+			<div class="motto">
+				<p>I can accept defeat but could not accept to give up</p>
+				<p>我可以接受失败，但不能接受放弃</p>
+				<p>By 迈克尔 乔丹</p>
+			</div>
 		</div><!-- .site-branding -->
 
 		<nav id="site-navigation" class="main-navigation">

@@ -5,10 +5,8 @@
     	margin-top: 20px;
     }
 	.slides{
-		max-height: 420px;
 	}
 	.slides li img{
-		max-height: 400px;
 		width:100%;
 	}
 	.slides li span{
@@ -58,13 +56,13 @@
 <div class="slider-container" id="slider-container">
 	<ul class="slides">
 
-		<li><a href="http://www.3pang.org/tag/fresh"><img src="http://www.3pang.org/wp-content/uploads/2017/05/slider1.jpg"><span>专题 清新妹子</span></a></li>
+		<li><a href="http://nbachina.qq.com/a/20170823/011126.htm"><img src="http://img1.gtimg.com/chinanba/pics/hv1/237/63/2234/145282152.jpg"><span>凯尔特人官宣签下欧文 安吉：他还未到巅峰</span></a></li>
 
-		<li><a href="http://www.3pang.org/tag/riho-yoshioka"><img src="http://www.3pang.org/wp-content/uploads/2017/05/slide2.jpg"><span>清新妹子 吉冈里帆</span></a></li>
+		<li><a href="http://nbachina.qq.com/a/20170823/007891.htm"><img src="http://img1.gtimg.com/chinanba/pics/hv1/8/39/2232/145145753.jpg"><span>威少十大不可思议进球 极限三分绝杀勇士</span></a></li>
 
-		<li><a href="http://www.3pang.org/tag/elder"><img src="http://www.3pang.org/wp-content/uploads/2017/05/1510271608a92865f54e459465_2.jpg"><span>长者专辑</span></a></li>
+		<li><a href="http://nbachina.qq.com/a/20170823/007891.htm"><img src="http://img1.gtimg.com/chinanba/pics/hv1/20/250/2233/145264595.jpg"><span>视频-上赛季火箭25佳球 哈登奔袭上篮演绝杀</span></a></li>
 
-		<li><a href="http://www.3pang.org/tag/pvp"><img src="http://www.3pang.org/wp-content/uploads/2017/06/CilEmlcsXy2AEtLXAABxdPP1R0k325.jpg"><span>王者荣耀 搞笑合集</span></a></li>
+		<li><a href="http://nbachina.qq.com/a/20170823/007891.htm"><img src="http://img1.gtimg.com/chinanba/pics/hv1/145/63/2234/145282060.jpg"><span>勇士队赛程公布：14组背靠背 最长6连客场</span></a></li>
 
 	</ul>
 

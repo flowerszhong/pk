@@ -687,10 +687,6 @@
 }
 
 
-
-
-
-
 .post-list{
     box-shadow: 0 4px 4px #ebebeb;
     -moz-box-shadow: 0 4px 4px #ebebeb;
@@ -1017,6 +1013,10 @@ textarea#comment{
     .fmenu{
         text-align: center;
     }
+    
+    .motto{
+        display: none;
+    }
 }
 
 
@@ -1330,4 +1330,44 @@ li.gray {
 
 .team-list a.label-mavericks {
     background-position: 28px -2122px
+}
+
+
+
+
+/* search form */
+
+.search-form{
+    border:1px solid #1e518c;
+    padding:0;
+}
+
+.search-form .screen-reader-text{
+    display: none;
+}
+
+.search-field{
+    padding-left: 10px;
+    width:77%;
+    height: 40px;
+    border:0 none;
+    color:gray;
+}
+
+.search-submit{
+    width:20%;
+    height: 40px;
+    background: #1e518c;
+    color:#fff;
+    float: right;
+    border:0 none;
+}
+
+
+.motto{
+    max-width: 50%;
+    float:right;
+    color:#fff;
+    text-align: right;
+    line-height: 36px;
 }
