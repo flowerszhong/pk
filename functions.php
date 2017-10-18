@@ -159,25 +159,47 @@ function move_jquery_into_footer( $wp_scripts ) {
     $wp_scripts->add_data( 'jquery-migrate', 'group', 1 );
 }
 
-
-
 if(!function_exists('record_visitors')){
-    function record_visitors(){
-        if (is_singular())
-        {
-          global $post;
-          $post_ID = $post->ID;
-          if($post_ID)
-          {
-              $post_views = (int)get_post_meta($post_ID, 'views', true);
-              if(!update_post_meta($post_ID, 'views', ($post_views+1)))
-              {
-                add_post_meta($post_ID, 'views', 1, true);
-              }
-          }
-        }
-    }
-}
+	
+		function record_visitors(){
+	
+			if (is_singular())
+	
+			{
+	
+			  global $post;
+	
+			  $post_ID = $post->ID;
+	
+			  if($post_ID)
+	
+			  {
+	
+				  $post_views = (int)get_post_meta($post_ID, 'views', true);
+	
+				  if($post_views == 0){
+	
+					$post_views = rand(100,300);
+	
+				  }
+	
+				  if(!update_post_meta($post_ID, 'views', ($post_views+1)))
+	
+				  {
+	
+					add_post_meta($post_ID, 'views', rand(100,200), true);
+	
+				  }
+	
+			  }
+	
+			}
+	
+		}
+	
+	}
+
+
 
 add_action('wp_head', 'record_visitors');
 

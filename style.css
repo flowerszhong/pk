@@ -810,6 +810,13 @@ a:active {
 	padding: 0;
 }
 
+.entry-content ul{
+	padding: 0;
+	margin: 0;
+	margin-left: 2em;
+	list-style: none;
+}
+
 /* Make sure embeds and iframes fit their containers. */
 embed,
 iframe,
