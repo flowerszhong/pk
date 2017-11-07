@@ -22,8 +22,8 @@
 					</h4>
 
 					<ul>
-						<li>NBA Store</li>
-						<li>NBA Store</li>
+						<li><a href="/about">NBA17PK.com</a></li>
+						<li><a href="/about-zw">篮球战网</a></li>
 					</ul>
 				</div>
 
@@ -64,12 +64,12 @@
 				</div>
 				<div class="fmenu col-md-4 col-sm-6">
 					<h4 class="fmenu-title">
-						关于
+						商城
 					</h4>
 
 					<ul>
-						<li>NBA Store</li>
-						<li>NBA Store</li>
+						<li><a href="https://s.click.taobao.com/BGDORYw" target="_blank">NBA官方旗舰店</a></li>
+						<li><a href="https://s.click.taobao.com/c6fNRYw" target="_blank">兄弟体育正品</a></li>
 					</ul>
 				</div>
 			</div>

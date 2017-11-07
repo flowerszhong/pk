@@ -751,6 +751,7 @@
 
 .post-thumbnail{
     max-width: 140px;
+    max-height: 100px;
     float:left;
 }
 
@@ -1380,4 +1381,42 @@ li.gray {
     color:#fff;
     text-align: right;
     line-height: 36px;
+}
+
+
+.post-grid{
+    background-color: #fff;
+    padding: 10px;
+}
+
+.post-grid a{
+    text-decoration: none;
+}
+.grid-item{
+    margin-bottom: 10px;
+    border:1px solid #ededed;
+}
+
+.grid-item:hover{
+    outline:1px solid #f40;
+}
+.grid-item:hover .grid-thumbnail{
+    border-bottom: 1px solid #f40;
+}
+
+.grid-thumbnail{
+    width:100%;
+    border-bottom:1px solid #ededed;
+}
+
+.gtitle{
+    padding: 0 10px;
+    line-height: 16px;
+    font-size: 12px;
+    height: 48px;
+    overflow: hidden;
+    font-family: arial,'Hiragino Sans GB',"\5b8b\4f53",sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #3d3d3d;
 }
